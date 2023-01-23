@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- <ion-title>admin-home</ion-title> -->
+    <ion-title align="center" style="font:bolder;">Online Voting System</ion-title>
+    <ion-buttons slot="start" class="menu">
+      <ion-menu-button menu="admin-menu">
+      </ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <!-- <ion-card class="voter-card"> -->
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card class="c1">
+            <ion-card-header>
+              <ion-icon name="person"></ion-icon><ion-item class="voter"><ion-label align="center"
+                  style="font-size:2rem;" id="Voter">Voter</ion-label></ion-item>
+
+            </ion-card-header>
+            <a href="http://localhost/PHP/index.php/" target="_blank"><ion-button class="voter-button" expand="Block" style="border-radius: 90%;">Add Voter</ion-button></a><br>
+            <ion-button class="voter-button" expand="fullscreen" routerlink="./dashboard.page.html">Edit/Delete Voter</ion-button> <br>
+            <ion-button class="voter-button" expand="">View Voter</ion-button> <br>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card class="c1">
+            <ion-card-header>
+              <ion-icon name="person"></ion-icon><ion-item class="voter"><ion-label align="center"
+                  style="font-size:2.3rem;">Candidate</ion-label></ion-item></ion-card-header>
+            <ion-button class="voter-button" expand="" style="border-radius: 50%;">Add Candidate</ion-button> <br>
+            <ion-button class="voter-button" expand="">Edit/Delete Candidate</ion-button> <br>
+            <ion-button class="voter-button" expand="">View Candidate</ion-button> <br>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card class="c1">
+            <ion-card-header>
+              <ion-icon name="person"></ion-icon> <ion-item class="voter"><ion-label align="center" style="font-size:2.3rem;">EVM</ion-label></ion-item></ion-card-header>
+            <ion-button class="voter-button" expand="" style="border-radius: 50%;">Add Election</ion-button> <br>
+            <ion-button class="voter-button" expand="">Edit/Delete Election</ion-button> <br>
+            <ion-button class="voter-button" expand="">View Election</ion-button> <br>
+          </ion-card>
+        </ion-col>
+        <!-- </ion-row>
+      <ion-row> -->
+        <ion-col>
+          <ion-card class="c1" text-center padding>
+            <ion-card-header>
+              <ion-icon name="laptop"></ion-icon><ion-item class="voter"><ion-label align="center" style="font-size:2.3rem;"
+                id="Voter"> Voting </ion-label></ion-item></ion-card-header>
+            <ion-button class="voter-button" expand="" style="border-radius: 50%;">Add Voting</ion-button> <br>
+            <ion-button class="voter-button" expand="">Edit/Delete Voting</ion-button> <br>
+            <ion-button class="voter-button" expand="">View Voting</ion-button>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col expand="fullscreen">
+          <ion-card expand="full" class="c1">
+            <ion-card-header><ion-icon name="clipboard" class="result"></ion-icon><ion-item class="voter"><ion-label align="center" style="font-size:2.3rem;"
+              id="Result"> Result </ion-label></ion-item></ion-card-header>
+            <!-- <ion-button class="voter-button" expand="block" style="border-radius: 50%;">Add Result</ion-button> <br> -->
+            <!-- <ion-button class="voter-button" expand="block">Edit/Delete Voter</ion-button> <br> -->
+            <ion-button class="voter-button" expand="">View Result</ion-button>
+          </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card class="c1">
+            <ion-icon name="clipboard" class="result"></ion-icon>
+            <ion-item class="voter"><ion-label align="center" style="font-size:2.3rem;">Contact us</ion-label></ion-item>
+            <!-- <ion-button class="voter-button" expand="block" style="border-radius: 50%;">Add Voter</ion-button> <br> -->
+            <h3 shape="round" align=center>Toll Free Number:<br> 1800 111 950</h3>
+            <ion-input type="mail" shape="round"></ion-input>
+            <!-- <ion-button class="voter-button" expand="block">Edit/Delete Voter</ion-button> <br> -->
+            <!-- <ion-button class="voter-button" expand="">View Complaint</ion-button> -->
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  <!-- </ion-card> -->
+</ion-content>

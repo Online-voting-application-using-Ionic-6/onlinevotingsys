@@ -1,0 +1,75 @@
+ <ion-header class="header">
+  <ion-toolbar> 
+     <!-- <ion-title>admin-home</ion-title> -->
+     <ion-item style="text-decoration:none;">
+      <a href="./home" class="back"><ion-icon  name="home"></ion-icon></a>
+    <ion-title class="header">Online Voting System</ion-title>
+     </ion-item>
+    <!-- <ion-buttons slot="start" class="main">
+      <ion-menu-button menu="admin-menu">
+      </ion-menu-button>
+    </ion-buttons> -->
+  </ion-toolbar> 
+  </ion-header> 
+<ion-content>
+  <ion-card class="card1" expand="block">
+<div>
+    <h2 class="h2">Welcome Back, Voter</h2>
+<p class>Please Login to Continue</p>
+</div>
+<div class="form">
+
+  <ion-input type="text" shape="round" placeholder="Enter Your Voter-ID" ></ion-input>
+  <ion-input type="password" shape="round" placeholder="Enter Your Password" ></ion-input>
+
+</div>
+<button class="button"><a href="./admin-home" class="btn-lnk">login<ion-icon name="chevron-forward-outline"></ion-icon></a></button>
+  <h3 routerlink="/sign-up">Don't have an account?</h3><h3><a href="sign-up" class="link">sign-up</a></h3>
+  
+</ion-card>
+<!-- <ion-card class="footer"> -->
+</ion-content> 
+
+<!-- 
+<ion-header [translucent]="true" id="header">
+  <ion-toolbar>
+        <ion-title align="center" style="font:bolder;">Online Voting System</ion-title>
+    <ion-buttons slot="start" class="menu">
+    <ion-menu-button menu="voting-menu">
+</ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-card  class="card1" expand="block">
+<div class="form">
+  <ion-item>
+    <ion-item position="floating">Enter Your Voter Id</ion-item>
+    <ion-input placeholder="Enter text"></ion-input>
+  </ion-item>
+  <ion-input type="file" placeholder="Your photo Id"></ion-input>
+  <ion-input type="text"  placeholder="Enter Your Voter-Id" ></ion-input>
+  <ion-input type="password"  placeholder="Enter Your Name" ></ion-input>
+  <ion-input type="password"  placeholder="Enter Your Father Name" ></ion-input>
+  <ion-select placeholder="Gender"> 
+    <ion-select-option value="Male">Male</ion-select-option>
+    <ion-select-option value="Female">Female</ion-select-option> 
+  </ion-select>
+  <ion-input type="date" placeholder="Date of Birth"></ion-input>  -->
+ 
+<!-- <ion-input type="number" shape="round" placeholder="Candidate-Id" ></ion-input>
+<ion-input type="text" shape="round" placeholder="Candidate Name" ></ion-input>
+<ion-input type="text" shape="round" placeholder="Father Name" ></ion-input>
+<ion-select placeholder="Gender">
+  <ion-select-option value="Male">Male</ion-select-option>
+  <ion-select-option value="Female">Female</ion-select-option>
+</ion-select>
+<ion-input type="date" placeholder="Date of Birth"></ion-input> 
+<ion-input type="textarea" shape="round" placeholder="Address" ></ion-input>
+<ion-input type="number" shape="round" placeholder="Pincode" ></ion-input> 
+
+</div>
+
+</ion-card>
+</ion-content>   -->

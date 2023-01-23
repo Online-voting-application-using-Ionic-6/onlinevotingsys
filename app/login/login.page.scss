@@ -1,0 +1,95 @@
+.header{
+text-align:center;
+font-weight:700;
+// background-color:bisque;
+// color:white;
+.back{
+    text-decoration:none;
+    color:black;
+    font-size:1.8rem;
+}
+}
+
+.card1 {
+    background-image:'./src/assets/download.jpg';
+      margin: 10px;
+      text-align: center;
+      height: 86vh;
+      width: 96vw;
+      h2{
+        font-size:2.3rem;
+        font-family:sans-serif;
+        font-weight:800;
+      }
+      p{
+        font-size:1.8rem;
+        color:brown;
+      }
+  }
+
+  .form {
+      padding: 5vh 12vw;
+      margin-top: 70px;
+
+      ion-input {
+          background-color: rgb(148, 21, 160);
+          padding-left: 33px;
+          height: 55px;
+          border-radius: 25px;
+          margin-bottom: 22px;
+          --placeholder-color: white;
+          color: #fff;
+          font-weight: 600;
+      }
+  }
+  .button{
+      width: 40%;
+      background-color: #ffde59;
+      margin-left: -20px;
+      padding: 10px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      font-size: 1.2rem;
+      font-weight: 400;
+      justify-content: flex-end;
+      color:black;
+      ion-icon {
+          margin: 0 0 0 10px;
+      }
+      .btn-lnk{
+        font-family:Verdana;
+        font-weight:700;
+        color:black;
+        text-decoration:none;
+      }
+    }  
+
+
+  .footer {
+      color: #fff;
+      padding: 0 12vw;
+      margin-top: 100px;
+      text-align: center;
+
+      h3 {
+          font-size: 1rem;
+          font-weight: 400;
+
+          span {
+              font-size: 1.2rem;
+              color: #ff987b;
+              font-weight: 500;
+          }
+      }
+
+  }
+
+  .link {
+      text-decoration: none;
+      font-weight: 400;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      accent-color: Blue;
+  }
