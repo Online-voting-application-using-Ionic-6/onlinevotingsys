@@ -1,0 +1,82 @@
+.header{
+    text-align:center;
+    font-weight:700;
+    // background-color:bisque;
+    // color:white;
+    .back{
+        text-decoration:none;
+        color:black;
+        font-size:1.8rem;
+    }
+    }
+    
+ .card1 {
+    align-items:center;
+    margin: 10px;
+    text-align: center;
+    height:min-content;
+    width: 92vw;
+ }
+
+.form {
+    padding: 0 12vw;
+    margin-top: 25px;
+    margin-bottom:15px;
+
+    ion-input {
+        background-color: rgb(148, 21, 160);
+        padding-left: 33px;
+        height: 45px;
+        border-radius: 25px;
+        margin-bottom: 15px;
+        --placeholder-color: white;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+
+.lg-button {
+    width: 50%;
+    background-color: #ffde59;
+    margin-left: -20px;
+    padding: 10px;
+    // border-top-right-radius: 30px;
+    // border-bottom-left-radius: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    justify-content: flex-end;
+
+    ion-icon {
+        margin-left: 20px;
+    }
+}
+
+
+.footer {
+    color: #fff;
+    padding: 0 12vw;
+    margin-top: 100px;
+    text-align: center;
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 400;
+
+        span {
+            font-size: 1.2rem;
+            color: #ff987b;
+            font-weight: 500;
+        }
+    }
+
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    accent-color: Blue;
+}

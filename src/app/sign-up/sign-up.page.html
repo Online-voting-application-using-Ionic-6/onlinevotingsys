@@ -1,0 +1,75 @@
+<ion-header [translucent]="true" id="header">
+  <ion-toolbar>
+    <ion-item style="text-decoration:none;">
+      <a href="./home" class="back"><ion-icon  name="home"></ion-icon></a>
+    <ion-title class="header">Online Voting System</ion-title>
+     </ion-item>
+         <ion-buttons slot="start" class="menu">
+    <ion-menu-button menu="voting-menu">
+</ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-card class="card1" expand="block">
+
+    <h2>Welcome to Sign-up </h2>
+<p>Create your account </p>
+<div class="form">
+
+  
+  <ion-input type="text" shape="round" placeholder="Enter Your Name" required></ion-input>
+  <ion-input type="text" shape="round" placeholder="Enter Your Voter-Id" required></ion-input>/ion-input>
+  <ion-input type="password" shape="round" placeholder="Enter Your Password" required></ion-input>
+  <ion-input type="password" shape="round" placeholder="Confirm Your Password" value="password" ></ion-input>
+
+</div>
+<div class="lg-button">login
+  <ion-icon name="chevron-forward-outline"></ion-icon></div>
+  <h4 routerlink="/sign-up">Don't have an account? <a href="sign-up" class="link">sign-up</a></h4>
+  <h4 routerlink="/login">If you have Already an account <a href="login" class="link">login</a></h4>
+
+</ion-card> 
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@1.34.1/tsparticles.min.js"
+        integrity="sha256-D6LXCdCl4meErhc25yXnxIFUtwR96gPo+GtLYv89VZo=" crossorigin="anonymous"></script>
+</ion-content>  
+
+
+<!-- <ion-content>
+  <h1 text-center>Sign Up</h1>
+  <form>
+    <div>
+
+
+      <ion-item>
+        <ion-label>Name*</ion-label>
+        <ion-input type="text" autocapitalize="on"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Email*</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Password*</ion-label>
+        <ion-input type="password" ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Confirm Password</ion-label>
+        <ion-input type="password" ></ion-input>
+      </ion-item>
+    </div>
+    <ion-grid>
+      <ion-button expand="block" full type="submit">
+         [disabled]="!signUpForm.valid">
+        <strong>Sign up</strong>
+      </ion-button>
+      <ion-button expand="block" [routerLink]="['/login']">
+        <strong>Alreday a User? Log in here</strong>
+      </ion-button>
+    </ion-grid>
+  </form>
+</ion-content> -->

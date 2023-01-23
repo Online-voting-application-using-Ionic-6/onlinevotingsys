@@ -1,0 +1,31 @@
+.content{
+background-color:darkslategrey;
+
+.flex-center{
+      // display:flex;
+      position:relative;
+      justify-items: center;
+      align-content: center;
+      text-align: center;
+      width: 100vw;
+      text-decoration:none;
+      // background-color:darkslategrey;
+      .loader-text{
+        // display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: auto;
+        width:100vw;
+        // margin:15px 0 30vh 0;
+        font-weight:700;
+font-family:coursul;
+      padding:20px}
+      .loader-img{
+        height:100px;
+        width:100px;
+        border-radius:19px;
+        // border:solid 2px cyan;
+      }
+    }
+  }
